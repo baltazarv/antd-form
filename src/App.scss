@@ -1,0 +1,69 @@
+.App {
+  .app-header {
+    font-size: 17px;
+    background: dimgray;
+    color: white;
+    font-weight: 600;
+    padding: 0.5em 1em;
+  }
+
+  .app-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5em 0.5em;
+
+    .ant-form-item {
+      margin-bottom: 0;
+    }
+  }
+
+  .form-description {
+    font-size: 0.85em;
+    text-align: center;
+    color: dimgray;
+    margin: 0.5em 1em 0.8em;
+  }
+
+  .form-wrap {
+    border: 1px solid #ccc;
+  }
+
+  .submit-data-output {
+    margin: 1em;
+    border: 1px solid #ccc;
+
+    &.error {
+      color: orangered;
+    }
+
+    &.success {
+      color: forestgreen;
+    }
+
+    .submit-values-title {
+      padding: 0.5em;
+      background: whitesmoke;
+    }
+
+    pre {
+      margin: 1em;
+    }
+  }
+
+  // config
+  &.show-form-layout {
+    .ant-form {
+      background: lavenderblush;
+
+      .ant-form-item {
+        background: mistyrose;
+
+        .ant-form-item-label,
+        .ant-form-item-control {
+          border: 1px solid lightpink;
+        }
+      }
+    }
+  }
+}

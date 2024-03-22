@@ -1,0 +1,34 @@
+.controls-menu {
+  display: flex;
+  gap: 1em;
+  background: whitesmoke;
+  padding: .5em 1em;
+  border: 1px solid lightgray;
+
+  .controls-menu-title {
+    display: flex;
+    align-items: center;
+    font-size: 0.75em;
+    font-weight: 600;
+    line-height: 1.4;
+    color: rgba(0, 0, 0, 0.65);
+    text-transform: uppercase;
+  }
+
+  .controls-menu-content {
+    display: flex;
+    flex-wrap: wrap;
+    // align-items: center;
+    gap: 1em;
+  }
+
+  .ant-form-item {
+    margin-bottom: 0;
+  }
+
+  .ant-form-item-label {
+    label {
+      font-weight: 600;
+    }
+  }
+}
